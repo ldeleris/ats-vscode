@@ -1,0 +1,51 @@
+{
+    "name": "language-ats",
+    "displayName": "ATS",
+    "description": "ATS language support",
+    "version": "0.0.1",
+    "publisher": "Laurent Deleris",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/ldeleris/ats-vscode/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ldeleris/ats-vscode.git"
+    },
+    "icon": "images/ATS-logo.png",
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ats",
+                "aliases": [
+                    "ATS",
+                    "ats"
+                ],
+                "extensions": [
+                    ".dats",
+                    ".sats",
+                    ".hats"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ats",
+                "scopeName": "source.ats",
+                "path": "./syntaxes/ats.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "ats",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

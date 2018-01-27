@@ -1,0 +1,69 @@
+{
+  "#include": {
+    "prefix": "#include",
+    "body": [
+      "#include",
+      "$1"
+    ],
+    "description": "include header file",
+    "scope": "source.ats"
+  },
+  "staload": {
+    "prefix": "staload",
+    "body": [
+      "staload",
+      "$1 = $2"
+    ],
+    "description": "static load",
+    "scope": "source.ats"
+  },
+  "dynload": {
+    "prefix": "dynload",
+    "body": [
+      "dynload",
+      "$1 = $2"
+    ],
+    "description": "dynamic load",
+    "scope": "source.ats"
+  },
+  "val": {
+    "prefix": "val",
+    "body": [
+      "val $1 = $2"
+    ],
+    "description": "binding val",
+    "scope": "source.ats"
+  },
+  "val ()": {
+    "prefix": "val ()",
+    "body": [
+      "val () = $1"
+    ],
+    "description": "binding void val",
+    "scope": "source.ats"
+  },
+  "val _": {
+    "prefix": "val _",
+    "body": [
+      "val _ = $1"
+    ],
+    "description": "no binding",
+    "scope": "source.ats"
+  },
+  "print": {
+    "prefix": "print",
+    "body": [
+      "val () = print $1"
+    ],
+    "description": "print",
+    "scope": "source.ats"
+  },
+  "println": {
+    "prefix": "println",
+    "body": [
+      "val () = println! $1"
+    ],
+    "description": "print",
+    "scope": "source.ats"
+  }
+}
