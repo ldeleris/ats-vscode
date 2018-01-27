@@ -3,7 +3,7 @@
     "displayName": "ATS",
     "description": "ATS language support",
     "version": "0.0.1",
-    "publisher": "Laurent Deleris",
+    "publisher": "ldeleris",
     "engines": {
         "vscode": "^1.19.0"
     },
