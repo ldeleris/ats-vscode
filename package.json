@@ -2,7 +2,7 @@
     "name": "language-ats",
     "displayName": "ATS",
     "description": "ATS language support",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ldeleris",
     "engines": {
         "vscode": "^1.19.0"
