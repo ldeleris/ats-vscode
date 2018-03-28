@@ -289,7 +289,7 @@
 		<key>operators</key>
 		<dict>
 			<key>match</key>
-			<string>!=|!|%|&amp;&amp;|&amp;|\*|\+|-|--&gt;|-&gt;|/|:=|&lt;=|(?&lt;=\s)&lt;|==&gt;|=&gt;|=|&gt;=|&gt;&gt;|&gt;|\?|\|\||\||~|\[\]</string>
+			<string>!=|!|%|&amp;&amp;|&amp;|&lt;&lt;|\*|\+|-|--&gt;|-&gt;|/|:=|&lt;=|(?&lt;=\s)&lt;|==&gt;|=&gt;|=|&gt;=|&gt;&gt;|&gt;|\?|\|\||\||~|\[\]</string>
 			<key>name</key>
 			<string>keyword.operator</string>
 		</dict>
